@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /live
+Disallow: /cmdtest
+Disallow: /dev
+Disallow: /cp_tt141

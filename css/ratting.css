@@ -1,0 +1,144 @@
+#main-content {
+                margin: 0 20px 0 240px;
+                padding: 0px 0 0 0;
+                }
+
+
+#ratingbar {float:left;width:100%;}
+#starrating {background:url("../images/stars.png") no-repeat scroll 0 0 transparent;display:block;float:left;height:16px;margin:0;padding:0;position:relative;width:85px;}
+#starrating li {display:block;list-style:none outside none;margin:0;padding:0;position:absolute;}
+
+#starrating a {display:block;outline:medium none;text-decoration:none;text-indent:-9999px;}
+
+
+#ratingbare {
+float:left;width:100%;	}
+
+#starratinge {background:url("../images/stars.png") no-repeat scroll 0 0 transparent;display:block;float:left;height:16px;margin:0;padding:0;position:relative;width:85px; }
+#starratinge li {display:block;list-style:none outside none;margin:0;padding:0;position:absolute;}
+
+#starratinge a {display:block;outline:medium none;text-decoration:none;text-indent:-9999px;}
+
+
+
+#ratingbar2 {
+float:left;width:100%;	}
+
+#starrating2 {background:url("../images/stars.png") no-repeat scroll 0 0 transparent;display:block;float:left;height:16px;margin:0;padding:0;position:relative;width:85px; }
+#starrating2 li {display:block;list-style:none outside none;margin:0;padding:0;position:absolute;}
+
+#starrating2 a {display:block;outline:medium none;text-decoration:none;text-indent:-9999px;}
+
+
+#ratingbar3 {
+float:left;width:100%;	}
+
+#starrating3 {background:url("../images/stars.png") no-repeat scroll 0 0 transparent;display:block;float:left;height:16px;margin:0;padding:0;position:relative;width:85px; }
+#starrating3 li {display:block;list-style:none outside none;margin:0;padding:0;position:absolute;}
+
+#starrating3 a {display:block;outline:medium none;text-decoration:none;text-indent:-9999px;}
+
+
+
+#ratingbar4 {
+float:left;width:100%;	}
+
+#starrating4 {background:url("../images/stars.png") no-repeat scroll 0 0 transparent;display:block;float:left;height:16px;margin:0;padding:0;position:relative;width:85px; }
+#starrating4 li {display:block;list-style:none outside none;margin:0;padding:0;position:absolute;}
+
+#starrating4 a {display:block;outline:medium none;text-decoration:none;text-indent:-9999px;}
+
+
+
+#ratingbar5 {
+float:left;width:100%;	}
+
+#starrating5 {background:url("../images/stars.png") no-repeat scroll 0 0 transparent;display:block;float:left;height:16px;margin:0;padding:0;position:relative;width:85px; }
+#starrating5 li {display:block;list-style:none outside none;margin:0;padding:0;position:absolute;}
+
+#starrating5 a {display:block;outline:medium none;text-decoration:none;text-indent:-9999px;}
+
+
+
+
+
+#star1 {left:0;}
+#star2 {left:17px;}
+#star3 {left:34px;}
+#star4 {left:51px;}
+#star5 {left:68px;}
+
+#star1,#star2,#star3,#star4,#star5,#star1 a,#star2 a,#star3 a, #star4 a, #star5 a {height:16px;width:17px;top:0;}
+
+
+.pickjobforinvite {
+   /* background: none repeat scroll 0 0 #FFFFFF;*/
+    border: 1px solid #FFFFFF;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    position: relative;
+    text-align: left;
+    width: 660px;
+}
+
+.desktop {
+    color: #666666;
+}
+.desktop .pickjobforinvite h2 {
+    background: none repeat scroll 0 0 #153969;
+    color: #FFFFFF;
+    font-size: 1.1em;
+    font-weight: normal;
+    padding: 20px 20px 10px 25px;
+    position: relative;
+}
+
+.pickjobforinvite ul {
+    margin: 20px 25px 15px;
+    overflow: hidden;
+}
+
+.pickjobforinvite ul li {
+    border-right: 1px solid #153969;
+    float: left;
+    width: 58%;
+}
+li {
+    list-style: none outside none;
+}
+
+
+.pickjobforinvite ul li p {
+    color: #153969;
+    font-size: 1.1em;
+    margin: 0 20px 5px 0;
+    padding: 0;
+}
+
+.pickjobforinvite ul li ul {
+    margin: 0 20px 0 0;
+}
+.pickjobforinvite ul li ul li {
+    border: medium none;
+    float: none;
+    width: auto;
+}
+form ul li {
+    margin-top: 0.234em;
+}
+
+input {
+    color: #666666;
+    padding: 0.2em;
+}
+
+.green-160-32 {
+    background: url("../images/160x32.gif") no-repeat scroll 0 0 transparent;
+    width: 160px;
+}
+.pickjobforinvite ul li.postjob {
+    border: medium none;
+    margin: 0 0 0 40px;
+    width: 30%;
+	
+}

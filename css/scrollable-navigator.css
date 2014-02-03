@@ -1,0 +1,30 @@
+
+/* position and dimensions of the navigator */
+.navi {
+	margin-left:328px;
+	width:200px;
+	height:15px;
+	float:left;
+}
+
+
+/* items inside navigator */
+.navi a {
+	width:12px;
+	height:12px;
+	float:left;
+	margin:3px;
+	background:url(../images/navigator.png) 0 0 no-repeat;
+	display:block;
+	font-size:1px;
+}
+
+/* mouseover state */
+.navi a:hover {
+	background-position:0 -12px;
+}
+
+/* active state (current page state) */
+.navi a.active {
+	background-position:0 -24px;     
+}

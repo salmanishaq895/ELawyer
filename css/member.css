@@ -1,0 +1,122 @@
+/* CSS Document */
+.list-row{
+	float:left;
+	width:95%;
+	margin:5px 20px;
+	font-family:Arial, Helvetica, sans-serif;
+	border-bottom:1px solid #CCCCCC;
+}
+.list-row-hover{
+	color:#828281;
+}
+.list-row-hover:hover{
+	background-color:#F7F7F7;
+}
+.list-row .title,.list-row .img, .list-row .desc, .list-row .action{
+	float:left;
+	margin:5px;
+}
+.list-row .title{
+	width:190px;
+}
+.list-row .img{
+	width:100px;
+	text-align:center;
+}
+.list-row .img img{ float:none; margin-left:0;}
+.list-row .desc{
+	width:220px;
+}
+.list-row .action{
+	width:80px;
+	text-align:center;
+}
+.list-row .action img{ margin:5px 10px;}
+
+
+/*  this code is used for the applied job  */
+
+.list-row .title1,.list-row .img1, .list-row .desc1, .list-row .action1{
+	float:left;
+	margin:5px;
+}
+.list-row .title1{
+	width:121px;
+}
+.list-row .img1{
+	width:117px;
+	text-align:left;
+}
+.list-row .img1 img1{ float:none; margin-left:0;}
+.list-row .desc1{
+	width:142px;
+}
+.list-row .action1{
+	width:71px;
+	text-align:left;
+}
+.list-row .action1 img1{ margin:5px 10px;}
+
+/* this code is used for the manage job */
+
+
+.list-row .titlej,.list-row .imgj, .list-row .descj, .list-row .actionj{
+	float:left;
+	margin:5px;
+	padding: 0 0 0 13px;
+}
+.list-row .titlej{
+	width:135px;
+}
+.list-row .imgj{
+	width:100px;
+	text-align:center;
+}
+.list-row .imgj imgj{ float:none; margin-left:0;}
+.list-row .desc1{
+	width:142px;
+}
+.list-row .actionj{
+	width:101px;
+	text-align:center;
+}
+.list-row .actionj imgj{ margin:5px 10px;}
+
+/* this code is used for short list jobs */
+list-row .titless,.list-row .imgss, .list-row .descss, .list-row .actionss{
+	float:left;
+	margin:5px;
+	padding: 0 0 0 34px;
+}
+.list-row .titless{
+	width:90px;
+}
+.list-row .imgss{
+	width:100px;
+	text-align:center;
+}
+.list-row .imgss imgss{ float:none; margin-left:0;}
+.list-row .descss{
+	width:131px;
+}
+.list-row .actionss{
+	width:74px;
+	text-align:center;
+}
+.list-row .actionss imgss{ margin:5px 10px;}
+
+
+
+
+
+ul.notice{
+	behavior:url(PIE.htc); -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;
+	border:1px solid #E0E0E0; float:left;background-color:#FFFBCC; width:671px; padding:5px 0; margin:5px 0 0 0;
+	font-family:Arial, Helvetica, sans-serif;
+}
+ul.notice li{
+	float:left;
+	width:100%;
+	list-style-type:decimal;
+	margin:0 0 0 30px;
+}

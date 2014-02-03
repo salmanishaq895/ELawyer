@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+/* some custom fonts via google font api */
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:extralight);
+/* content block 1 */
+#mcs_container{ width:296px; height:380px; float:left; }
+#mcs_container .customScrollBox{position:relative; height:100%; width:296px; overflow:hidden;}
+#mcs_container .customScrollBox .container{position:relative; width:280px; top:0; float:left;}
+
+#mcs_container .customScrollBox .content{clear:both; width:290px;		}
+#mcs_container .customScrollBox .content p{padding:5px; margin:0 5px;}
+#mcs_container .customScrollBox .content p img{margin-right:5px;}
+
+#mcs_container .dragger_container_arrow{position:relative; height:380px; width:15px;; float:left; }
+#mcs_container .dragger_container_leftRight{position:relative; height:20px; width:15px; float:left;  }
+
+#mcs_container .dragger_container{position:relative;  width:9px; height:340px; float:left; background:#E1E2E4; }
+
+#mcs_container .dragger{position:absolute; width:9px; height:60px; background:#747474; text-align:center; line-height:60px; color:#666; overflow:hidden; }
+#mcs_container .dragger_pressed{position:absolute; width:9px;  height:60px; background:#969696; text-align:center; line-height:60px; color:#666; overflow:hidden; ;}
+
+
+
+#mcs_container .scrollUpBtn,#mcs_container .scrollDownBtn{position:relative; display:inline-block; width:12px; height:12px;  text-decoration:none; right:0;}
+#mcs_container .scrollUpBtn{top:5px; left:-2px; background:url(../images/top_arrow.png) center center no-repeat;}
+#mcs_container .scrollDownBtn{bottom:-5px; left:-2px; background:url(../images/down_arrow.png) center center no-repeat;}
+
+
+
